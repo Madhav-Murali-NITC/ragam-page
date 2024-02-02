@@ -1,0 +1,210 @@
+.contact--container{
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+.contacts--topthird--text{
+    display:flex;
+    flex-direction:column;
+    animation: fadeIn 1.5s ease, slideRight 1.5s ease;
+}
+
+.contacts--topthird{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width:70%;
+    margin: auto;
+    height:80vh;
+    text-align:left;
+    
+
+
+   
+}
+
+.contacts--topthird--text>h1{
+    color: #000000;
+
+font-family: "IBM Plex Serif";
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.contacts--topthird--text>p{
+    color: #000;
+
+font-family: "IBM Plex Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.contacts--topthird>img{
+    mix-blend-mode: multiply;
+    animation: fadeIn 1.5s ease, slideLeft 1.5s ease, rotate 25s ease-in infinite 2s;
+    
+}
+
+
+.contacts--topthird--text>button{
+display:flex;
+background: #000;
+color: #fff;
+padding:15px 32px;
+width:140px;
+border-radius: 50px;
+justify-content: center;
+
+}
+
+.contacts--topthird--image{
+    width: 420px;
+height: 420px;
+flex-shrink: 0;
+}
+
+.learn--more{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.learn--more>p{
+    color:#0000006f;
+    size:22px;
+}
+
+.learn--more>img{
+    height:18px
+}
+
+
+
+.contacts--middlethird{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    width:80%;
+
+    margin: auto;
+    height:80vh;
+    text-align:left;
+
+}
+
+.contacts--middlethird--text{
+    animation:fadeIn 1.5s ease 1s, slideLeft 1.5s ease 1s;
+}
+
+.contacts--middlethird>img{
+    mix-blend-mode: multiply;
+    animation:fadeIn 1.5s ease 1s, slideRight 1.5s ease 1s,rotate 25s ease-in infinite 2s;
+
+}
+
+
+.contacts--bottomthird{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-content: center;
+    width:70%;
+    margin: auto;
+    height:60vh;
+    text-align:left;
+}
+
+.contacts--bottomthird--text{
+    display:flex;
+    flex-direction:column;
+    margin-right:200px;
+    animation : fadeIn 1.5s ease 1.5s, slideRight 1.5s ease 1.5s;
+}
+
+
+.custombox--component{
+    margin-top:40px;
+    size:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    row-gap: 10px;
+    border:1px solid #0000006f;
+    padding: 20px 60px;
+    border-radius: 20px;
+    line-height: 1px;
+}
+
+.custombox--component>p{
+    color:#0000006f;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.CustomBox{
+    animation: fadeIn 1.5s ease 1.5s, slideLeft 1.5s ease 1.5s;
+    transition: transform 0.3s;
+    
+}
+
+
+.CustomBox:hover{
+    transform : scale(1.05);
+}
+
+
+
+
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideRight{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+
+}
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  

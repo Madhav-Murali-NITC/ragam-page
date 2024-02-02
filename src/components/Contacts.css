@@ -1,0 +1,14 @@
+.second--container{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    padding:200px;
+}
+
+.custombox--container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+

@@ -1,0 +1,6 @@
+.footer--container{
+    column-count:auto;
+    column-gap:200;
+    border-top: 1px solid #00000017;
+    padding: 40px 10px;
+}

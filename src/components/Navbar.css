@@ -1,0 +1,32 @@
+.navbar--container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom: 1px solid #00000017;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.navbar--container--links{
+    display:flex;
+    flex-direction:row;
+    text-decoration: none;
+    text-decoration: none;
+   
+}
+
+.navbar--ptag{
+    margin-right:10px;
+    text-decoration: none;
+
+}
+.navbar--ptag>p{
+    font-weight:600;
+    color: black;
+    margin-right:20px;
+    
+}
+
+.Ragamlogo{
+    height:29px;
+}
